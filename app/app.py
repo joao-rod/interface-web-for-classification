@@ -45,4 +45,4 @@ def result():
     return render_template('home.html', alert=alert, result=result)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=5000)
